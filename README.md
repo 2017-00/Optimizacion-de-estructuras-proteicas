@@ -4,7 +4,7 @@ Este repositorio implementa un algoritmo de recocido simulado para optimizar la 
 Proyecto desarrollado como introducción a la bioinformática computacional, con potencial aplicación en futuras investigaciones o trabajos de tesis
 ## Estructura del Proyecto
 ### 📂 Estructura del Proyecto
-`├── RecocidoSimulado.py          # Algoritmo principal
+├── RecocidoSimulado.py          # Algoritmo principal
 
 ├── insulina.pdb                # Estructura original
 
