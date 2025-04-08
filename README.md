@@ -33,6 +33,6 @@ El algoritmo no sólo recuperó una estructura estable desde una conformación d
   <img src="Img/p2_2.png" width="45%" /> 
 </p>
 
-<div style="background-color: #f8f9fa; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+<blockquote>
   <p>📌 <strong>Nota:</strong> Para replicar los resultados, ejecutar <code>python optimize.py --input input.pdb</code>.</p>
-</div>
+</blockquote>
