@@ -57,8 +57,8 @@ El algoritmo no sólo recuperó una estructura estable desde una conformación d
 </p>
 <em>Tercer angulo de vista</em>
 <p float="left">
-  <img src="Img/p2.png" width="45%" />
-  <img src="Img/p2_2.png" width="45%" /> 
+  <img src="Img/p3.png" width="45%" />
+  <img src="Img/p3_3.png" width="45%" /> 
 </p>
 
 <blockquote>
