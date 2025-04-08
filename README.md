@@ -4,13 +4,10 @@ Este repositorio implementa un algoritmo de recocido simulado para optimizar la 
 Proyecto desarrollado como introducción a la bioinformática computacional, con potencial aplicación en futuras investigaciones o trabajos de tesis
 ##Resultados:
 El algoritmo no sólo recuperó una estructura estable desde una conformación distorsionada, sino que alcanzó un mínimo energético más profundo que el de la estructura nativa original, bajo la métrica de la función ref2015_cart.
-<table>
-  <tr>
-    <td align="center"><img src="img/p1.png" width="400"></td>
-    <td align="center"><img src="img/p1_1.png" width="400"></td>
-  </tr>
-  <tr>
-    <td align="center">Figura 1: Descripción imagen 1</td>
-    <td align="center">Figura 2: Descripción imagen 2</td>
-  </tr>
-</table>
+<p float="left">
+  <img src="img/p1.png" width="45%" />
+  <img src="img/p1_1.png" width="45%" /> 
+</p>
+<p>
+  <em>Izquierda:</em> Figura 1. <em>Derecha:</em> Figura 2.
+</p>
