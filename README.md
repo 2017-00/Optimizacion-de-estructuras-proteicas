@@ -39,9 +39,9 @@ El algoritmo no sólo recuperó una estructura estable desde una conformación d
 |----------------------|-----------------------------:|
 | Original (nativa)    |                  25.8315857401 |
 | Perturbada (entrada) |                3833.6422346043 |
-| Optimizada (salida)  |                -75.5667352263 |
+| Mejor estructura optimizada (salida)  |                -75.5667352263 |
 
-**_Comparación visual entre la estructura original y la perturbada(izquierda) y la estructura original y la arrojada por el algoritmo._**
+**_Comparación visual entre la estructura original y la perturbada(izquierda) y la estructura original y la mejor arrojada por el algoritmo._**
 **_La original está coloreada en verde, la perturbada en color azul y la optimizada en rosa_**
 <p>
   <em>Primer angulo de vista</em>
