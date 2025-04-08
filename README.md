@@ -2,6 +2,33 @@
 Este repositorio implementa un algoritmo de recocido simulado para optimizar la estructura 3D de proteínas, minimizando su energía conformacional mediante la perturbación controlada de ángulos de torsión (φ, ψ, χ). El método utiliza PyRosetta para evaluar energías y ajustar conformaciones, partiendo de un archivo PDB con ruido artificial y generando una estructura refinada más estable.
 ## Motivación:
 Proyecto desarrollado como introducción a la bioinformática computacional, con potencial aplicación en futuras investigaciones o trabajos de tesis
+## Estructura del Proyecto
+
+### 📂 Organización de Archivos
+proyecto/
+├── RecocidoSimulado.py # Algoritmo de optimización (Python)
+├── insulina.pdb # Estructura proteica original (target)
+├── insulina_con_ruido.pdb # Estructura perturbada (input)
+└── Mejores_estructuras/ # Resultados del algoritmo
+├── insulina_top1.pdb # Mejor estructura optimizada
+├── insulina_top2.pdb
+└── ... (8 archivos más)
+
+### Descripción Detallada
+
+| Componente                  | Función                                                                 |
+|-----------------------------|-------------------------------------------------------------------------|
+| `RecocidoSimulado.py`       | Implementa el algoritmo de recocido simulado para minimizar energía conformacional |
+| `insulina.pdb`              | Estructura nativa de referencia (sin perturbaciones)                   |
+| `insulina_con_ruido.pdb`    | Versión con ruido artificial en ángulos torsionales (punto de partida) |
+| `Mejores_estructuras/`      | Contiene las 10 conformaciones con menor energía encontradas            |
+
+### 📊 Proceso de Optimización
+1. **Entrada**: `insulina_con_ruido.pdb` (estructura perturbada)
+2. **Algoritmo**: 
+   ```python
+   python RecocidoSimulado.py --input insulina_con_ruido.pdb --output-dir Mejores_estructuras
+
 ## Resultados:
 El algoritmo no sólo recuperó una estructura estable desde una conformación distorsionada, sino que alcanzó un mínimo energético más profundo que el de la estructura nativa original, bajo la métrica de la función ref2015_cart.
 
