@@ -9,9 +9,13 @@ Proyecto desarrollado como introducción a la bioinformática computacional, con
 ├── insulina.pdb                # Estructura original
 
 ├── insulina_con_ruido.pdb      # Estructura con ruido
+
 └── Mejores_estructuras/        # Resultados de optimización
+
     ├── insulina_top1.pdb       # Mejor resultado (REU más bajo)
+    
     ├── insulina_top2.pdb       # Segundo mejor
+    
     └── ...                     # 8 estructuras adicionales 
 
 ### Descripción Detallada
