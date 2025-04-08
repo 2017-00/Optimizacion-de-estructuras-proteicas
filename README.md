@@ -13,8 +13,8 @@ El algoritmo no sólo recuperó una estructura estable desde una conformación d
 | Perturbada (entrada) |                3833.6422346043 |
 | Optimizada (salida)  |                -75.5667352263 |
 
-**_Comparación visual entre la estructura original y la perturbada(izquierda) y la estructura original y la arrojada por el algoritmo. 
-La original está coloreada en verde, la perturbada en color azul y la optimizada en rosa_**
+**_Comparación visual entre la estructura original y la perturbada(izquierda) y la estructura original y la arrojada por el algoritmo._**
+**_La original está coloreada en verde, la perturbada en color azul y la optimizada en rosa_**
 <p>
   <em>Primer angulo de vista</em>
 </p>
@@ -33,3 +33,6 @@ La original está coloreada en verde, la perturbada en color azul y la optimizad
   <img src="Img/p2_2.png" width="45%" /> 
 </p>
 
+<div style="background-color: #f8f9fa; padding: 10px; border-left: 4px solid #28a745; margin: 10px 0;">
+  <p>📌 <strong>Nota:</strong> Para replicar los resultados, ejecutar <code>python optimize.py --input input.pdb</code>.</p>
+</div>
