@@ -62,5 +62,5 @@ El algoritmo no sólo recuperó una estructura estable desde una conformación d
 </p>
 
 <blockquote>
-  <p>📌 <strong>Nota:</strong> Para replicar los resultados, ejecutar <code>python optimize.py --input input.pdb</code>.</p>
+  <p>📌 <strong>Nota:</strong><code></code>.</p>
 </blockquote>
