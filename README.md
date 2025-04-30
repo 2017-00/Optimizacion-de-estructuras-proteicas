@@ -4,16 +4,17 @@ Este repositorio implementa un algoritmo de recocido simulado para optimizar la 
 Proyecto desarrollado como introducción a la bioinformática computacional, con potencial aplicación en futuras investigaciones o trabajo de tesis
 ## Estructura del Proyecto
 ### 📂 Estructura del Proyecto
-├── RecocidoSimulado.py          # Algoritmo principal
 
-├── insulina.pdb                # Estructura original
+    ├── RecocidoSimulado.py          # Algoritmo principal
 
-├── insulina_con_ruido.pdb      # Estructura con ruido
+    ├── insulina.pdb                # Estructura original
 
-└── Mejores_estructuras/        # Resultados de optimización
-    ├── insulina_top1.pdb       # Mejor resultado (REU más bajo)
-    ├── insulina_top2.pdb       # Segundo mejor
-    └── ...                     # 8 estructuras adicionales 
+    ├── insulina_con_ruido.pdb      # Estructura con ruido
+
+    └── Mejores_estructuras/        # Resultados de optimización
+        ├── insulina_top1.pdb       # Mejor resultado (REU más bajo)
+        ├── insulina_top2.pdb       # Segundo mejor
+        └── ...                     # 8 estructuras adicionales 
 
 ### Descripción Detallada
 
